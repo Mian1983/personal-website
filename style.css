@@ -1,0 +1,92 @@
+header {
+    background: white;
+    font-size: 2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+}
+
+.logo {
+    float: left;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.navigation {
+    float: right;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    padding-top: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.description {
+    font-size: 2rem;
+}
+
+.quote {
+    font-size: 3rem;
+    font-style: italic;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    background: #F2994A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+
+.about-description {
+    font-size: 1.5rem;
+}
+
+.hobby-image {
+    max-width: 250px;
+    float: left;
+    padding: 1rem;
+}
+
+.hobby {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.hobby p {
+    padding: 1rem;
+}
+
+hr {
+    color: white;
+}
+
+.project-image {
+    max-width: 250px;
+    float: left;
+    padding: 1rem;
+}
+
+.project {
+    text-align: left;
+    font-size: 1.5rem;
+    background: white;
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+
+.portfolio-description {
+    font-size: 2rem;
+}
