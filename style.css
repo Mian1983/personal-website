@@ -90,3 +90,95 @@ hr {
 .portfolio-description {
     font-size: 2rem;
 }
+
+input {
+    padding: 0.6rem;
+    border-radius: 6px;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    width: 300px;
+    font-weight: 600;
+    border-color: transparent;
+}
+
+input:active, input:focus {
+    outline: none;
+    border-color: aqua;
+}
+
+.heading {
+    color: white;
+}
+
+label {
+    padding: 0.6rem;
+    margin-right: 1rem;
+    font-weight: 600;
+}
+
+textarea {
+    border-radius: 6px;
+    padding: 0.6rem;
+    width: 300px;
+}
+
+textarea:active, textarea:focus {
+    outline: none;
+    border-color: aqua;
+}
+
+#form {
+    border-radius: 6px;
+    background: #F2994A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F2C94C, #F2994A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F2C94C, #F2994A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 2rem;
+    max-width: 600px;
+    margin: auto;
+}
+
+#submit {
+    margin-top: 2rem;
+    padding: 0.4rem;
+    border-color: white;
+    background-color: #F2994A;
+    border-radius: 6px;
+    color: white;
+    font-weight: 600;
+}
+
+#submit:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border-color: #F2C94C;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.Flex {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    background-color: gold;
+    width: 25%;
+    min-width: 200px;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.item:nth-child(2n) {
+    background-color: beige;
+}
+
+.contact-page {
+    background-image: url("https://blog.depositphotos.com/wp-content/uploads/2017/07/Soothing-nature-backgrounds-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
